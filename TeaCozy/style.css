@@ -1,0 +1,141 @@
+body{
+  background-color: black;
+  color: white;
+  font-family: helvetica;
+  font-size: 22px;
+  color: seashell;
+  opacity: 0.9;
+  margin: 0 auto;
+}
+.header{
+  display: flex;
+  height: 69px;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid seashell;
+  background-color: black;
+  position: fixed;
+  width: 1400px;
+  align-content: flex-start;
+}
+.logo{
+  height: 50px;
+  margin-left: 10px;
+}
+
+nav a{
+  color: white;
+  font-size: 20px;
+  margin-right: 10px;
+}
+.mission{
+  display: flex;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+  height: 700px;
+  width: 1200px;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin: auto;
+}
+.ourmission{
+  background-color: black;
+  display: flex;
+  margin: 0 auto;
+  text-align: center;
+  width: 1200px;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  flex-flow: column;
+}
+
+.featuredtea{
+  display: flex;
+  width: 1000px;
+  height: 700px;
+  align-items: column;
+  margin: auto;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+}
+.featuredtea img{
+  width: 300px;
+  height: 200px;
+  margin-bottom: 10px;
+}
+.headline{
+  width: 1000px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+  flex-flow: column wrap;
+}
+
+.rowone{
+  display: inline-flex;
+  justify-content: space-between;
+  width: 1000px;
+  margin-bottom: 10px;
+}
+.rowone p{
+  text-align: center;
+}
+
+.rowthree{
+  display: inline-flex;
+  width: 800px;
+  justify-content: space-around;
+  margin: auto;
+}
+.rowthree p{
+  text-align: center;
+}
+
+.locations{
+  display: flex;
+  flex-direction: center;
+  align-items: center;
+  justify-content: space-around;
+  width: 1200px;
+  height: 500px;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+  margin-left: 90px;
+  margin-top: 35px;
+  opacity: 1;
+}
+
+.downtown{
+  height: 300px;
+  width: 300px;
+  background-color: black;
+  text-align: center;
+  align-items: center;
+  font-size: 25px;
+  justify-content: center;
+}
+
+.eastbayside{
+  height: 300px;
+  width: 300px;
+  background-color: black;
+  font-size: 25px;
+  text-align: center;
+}
+.oakdale{
+  height: 300px;
+  width: 300px;
+  background-color: black;
+  opacity: 1;
+  font-size: 25px;
+  text-align: center;
+}
+footer{
+text-align: center;
+}
+.copyright{
+  text-align: left;
+}
